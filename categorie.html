@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACCUEIL</title>
+    <title>Catégorie</title>
 </head>
 <body>
     <header>
@@ -24,19 +24,31 @@
             </ul>
         </nav>
     </header>
-            <figure>
-            <img src="assets/img/bandeau.png" alt="bandeau" width="800" height="100">
-            </figure>
-        <p>TEXT</p>
         <div class="col" id="col1">
-            <a href="" target="_blank" title="Meilleur vente n°1"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+            <form name="premier" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Filtres</legend>
+                    <input type="checkbox" name="filtre[]" value="catégorie" id="catégorie">
+                    <label for="breton1">catégorie</label>
+                    <br>
+                    <input type="checkbox" name="filtre[]" value="prix" id="prix">
+                    <label for="prix">prix</label>
+                    <br>
+                    <input type="checkbox" name="filtre[]" value="recherche" id="recherche">
+                    <label for="recherche">recherche</label>
+                    <br>
+                    <input type="reset" name="delete">
+                </fieldset>
+            </form>
         </div>
-            <div class="col" id="col2">
-                <a href="" target="_blank" title="Meilleur vente n°2"><img src="assets/img/produit 2.png" alt="logo" width="200" alt="logo"></a>
-            </div>
-                <div class="col" id="col3">
-                    <a href="" target="_blank" title="Meilleur vente n°3"><img src="assets/img/produit 3.png" alt="logo" width="200" alt="logo"></a>
-                </div>
+        <div class="col" id="col2">
+            <a href="" target="_blank" title="produit"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+            <a href="" target="_blank" title="produit"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+            <a href="" target="_blank" title="produit"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+            <a href="" target="_blank" title="produit"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+            <a href="" target="_blank" title="produit"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+            <a href="" target="_blank" title="produit"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
+        </div>
     <Footer>
         <div class="col" id="col1">
             <address>
@@ -56,5 +68,6 @@
             <a href="https://www.youtube.com/watch?v=f6JD2sW6zvs" target="_blank" title="Lien des réseaux sociaux"><img src="assets/img/facebook.png" alt="logo" width="50" alt="logo"></a>
         </div>
     </Footer>
+    
 </body>
 </html>
