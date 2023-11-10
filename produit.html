@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACCUEIL</title>
+    <title>Produit</title>
 </head>
 <body>
     <header>
@@ -26,19 +26,33 @@
             </ul>
         </nav>
     </header>
-            <figure>
-            <img src="assets/img/bandeau.png" alt="bandeau" width="800" height="100">
-            </figure>
-        <p>TEXT</p>
-        <div class="col" id="col1">
-            <a href="" target="_blank" title="Meilleur vente n°1"><img src="assets/img/produit 1.png" alt="logo" width="200" alt="logo"></a>
-        </div>
-            <div class="col" id="col2">
-                <a href="" target="_blank" title="Meilleur vente n°2"><img src="assets/img/produit 2.png" alt="logo" width="200" alt="logo"></a>
-            </div>
-                <div class="col" id="col3">
-                    <a href="" target="_blank" title="Meilleur vente n°3"><img src="assets/img/produit 3.png" alt="logo" width="200" alt="logo"></a>
-                </div>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="categorie.html">Catégorie</a></li>
+        <li><a href="produit.html">Produit</a></li>
+    </ul>
+        <p><h1>Tondeuse à gazon</h1></p>
+        <hr color="black" size="2" width="50%">
+        <img src="assets/img/produit1/produit1.png" width="150" alt="photo tondeuse n°1">
+        <img src="assets/img/produit1/produit2.png" width="150" alt="photo tondeuse n°1">
+        <img src="assets/img/produit1/produit3.png" width="150" alt="photo tondeuse n°1">
+    <form name="premier" method="GET" action="panier.html">        
+        <label for="panier">panier</label>
+        <select name="panier" id="panier">
+            <option value="1[]">1</option>
+            <option value="2[]">2</option>
+            <option value="3[]">3</option>
+            <option value="4[]">4</option>
+            <option value="5[]">5</option>
+            <option value="6[]">6</option>
+            <option value="7[]">7</option>
+            <option value="8[]">8</option>
+            <option value="9[]">9</option>
+            <option value="10[]">10</option>
+        </select>
+        <button type="submit" name="Ajouter">Ajouter au panier</button>
+    </form>
+    <p><h3>DESCRIPTION</h3></p>
     <Footer>
         <section id="contact">
         <div class="col" id="col1">
@@ -60,5 +74,6 @@
         </div>
         </section>
     </Footer>
+    
 </body>
 </html>
